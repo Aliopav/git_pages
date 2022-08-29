@@ -1,0 +1,41 @@
+#pos{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    position: relative;
+}
+#pos2{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    position: relative;
+    left: 500px;
+    top: -500px;
+}
+
+#pos3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#pos4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    left: 0px;
+    top: 600px;
+}
+#pos5{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    position: sticky;
+    left: 0px;
+    top:0px;
+    z-index: 1;
+    opacity: 0.5;
+}

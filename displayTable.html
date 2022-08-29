@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>displayTable</title>
+    <style>
+      .caption {
+        display: table-caption;
+        text-align: center;
+        font-size: 20px;
+      }
+      .td {
+        height: 300px;
+        padding: 0;
+        display: table-cell;
+      }
+      .table {
+        width: 1200px;
+        height: 1600px;
+        border: 2px solid;
+        display: table;
+      }
+      .thead {
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        background-color: grey;
+        display: table-header-group;
+      }
+      .tr {
+        display: table-row;
+      }
+      .page1 img {
+        width: 300px;
+        height: 300px;
+      }
+      .page2 img {
+        width: 300px;
+        height: 300px;
+        float: right;
+      }
+      p {
+        font-size: 20px;
+      }
+      .grey {
+        background-color: grey;
+      }
+      .navtab span {
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        height: 25px;
+      }
+      .yellow {
+        color: yellow;
+      }
+      .white {
+        color: white;
+      }
+      tbody {
+        display: table-row-group;
+      }
+    </style>
+  </head>
+  <tbody>
+    <div class="table">
+      <div class="caption"><p align="center">Табличная верстка</p></div>
+      <div class="thead">
+        <div class="tr grey">
+          <p align="center" style="font-size: 30px; font-weight: bold">
+            Мир цифрового фото Артёма Кашканова
+          </p>
+          <br />
+          <p align="center" style="font-size: 15px">
+            <font color="white"
+              >Последнее обновление -21 октября 2002 года. Введён раздел
+              ссылки.</font
+            >
+          </p>
+        </div>
+      </div>
+      <div class="tr grey" style="height: 30px">
+        <p align="center" class="navtab">
+          <span>Обо мне</span> <span>Моим друзьям</span>
+          <span> Мой компьютер </span> <span>Ссылки </span
+          ><span> Гостевая книга </span><span> Email</span
+          ><span> В избранное</span>
+        </p>
+      </div>
+      <div class="tr">
+        <div class="td grey">
+          <img src="styles/images/весна.jpg" alt="" />
+          <p align="center" class="yellow">Весна</p>
+        </div>
+        <div class="td"><p>text</p></div>
+        <div class="td grey">
+          <img src="styles/images/про кота.jpg" alt="" />
+          <p align="center" class="yellow">про кота</p>
+        </div>
+      </div>
+    </div>
+  </tbody>
+</html>

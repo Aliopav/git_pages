@@ -1,0 +1,21 @@
+.pos1{
+    /* width: 500px; */
+    height: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.pos2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+.pos3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}

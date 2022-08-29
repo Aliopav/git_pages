@@ -1,0 +1,21 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+
+}
+    
