@@ -1,0 +1,29 @@
+div{
+    -webkit-user-select: none;
+    -moz-user-select:none ;
+    -ms-user-select: none;
+}
+.scroll{
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+}
+.scroll::-webkit-scrollbar{
+    width: auto;
+
+    
+}
+.scroll::-webkit-scrollbar-button{
+
+}
+.scroll::-webkit-scrollbar-track{
+    background-color: red;
+
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    width: auto;
+    background-color: aquamarine;
+
+}
