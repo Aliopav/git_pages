@@ -1,0 +1,69 @@
+.wrapper{
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+}
+.rec{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    /* transition-duration:3s; */
+    /* transition-delay: 3s; */
+    /* transition-property: all;
+    transition-timing-function:cubic-bezier(0.45, -0.5, 0.11, 0.55); */
+    /* transition:all cubic-bezier(0.45, -0.5, 0.11, 0.55) 3s ; */
+
+}
+@keyframes to_right{
+    from{
+        left: 0;
+
+    }
+    to{
+        left: 500px;
+    }
+    /* 50%{
+        background-color: blue;
+        top:100px */
+            }
+            @keyframes to_bottom{
+                from{
+                    top: 0;
+
+                }
+                to{
+                    top: 200px;
+                }
+            }
+.wrapper:hover .rec{
+    
+     animation-name: to_right,to_bottom;
+    animation-duration: 3s,2s;
+    animation-delay: 2s;
+     animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1); 
+    /* animation: to_right 3s infinite alternate */
+
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 50%;
+    top: 100px;
+    background-color: yellow;
+    transform:rotate(540deg); */
+    /* transform: matrix(0.5,10,10,0.5,10,10); */
+    /* transform: scale(2,2); */
+    /* transform:skew(30deg,30deg); */
+    /* transform: translate(300px,200px); */
+
+}
